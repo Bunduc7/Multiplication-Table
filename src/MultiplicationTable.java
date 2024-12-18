@@ -16,4 +16,12 @@ public class MultiplicationTable { // Main class definition
                 table[i][j] = (i + 1) * (j + 1); // Compute multiplication value
             }
         }
+        // Display the multiplication table in matrix form
+        System.out.println("Multiplication Table:");
+        for (int i = 0; i < size; i++) { // Loop through rows
+            for (int j = 0; j < size; j++) { // Loop through columns
+                System.out.printf("%4d", table[i][j]); // Print each value with alignment
+            }
+            System.out.println(); // Move to the next line after each row
+        }
 
