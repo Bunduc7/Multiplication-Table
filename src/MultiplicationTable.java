@@ -1,3 +1,4 @@
+//GitHub Repository : https://github.com/Bunduc7/Multiplication-Table.git
 import java.util.Scanner; // Import Scanner for user input
 
 public class MultiplicationTable { // Main class definition
