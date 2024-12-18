@@ -8,3 +8,12 @@ public class MultiplicationTable { // Main class definition
         // Prompt the user to enter the size of the multiplication table
         System.out.print("Enter size of multiplication table: ");
         int size = scanner.nextInt(); // Read the input size
+        // Create a 2D array to hold the multiplication table
+        int[][] table = new int[size][size]; // Initialize the table based on input size
+        // Populate the 2D array with multiplication values
+        for (int i = 0; i < size; i++) { // Loop through rows
+            for (int j = 0; j < size; j++) { // Loop through columns
+                table[i][j] = (i + 1) * (j + 1); // Compute multiplication value
+            }
+        }
+
